@@ -2,17 +2,18 @@ from rest_framework import viewsets , views,permissions ,status
 
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import RefreshToken
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from .serializers import UserSerializer
 
-# authentication related code 
+User = get_user_model()
 
-
+# register view
 class RegisterView(views.APIView):
     permission_classes = [permissions.AllowAny]
+    serializer_class = UserSerializer
 
     def post(self, request):
-        serializer = UserSerializer(data=request.data)
+        serializer = self.serializer_class(data=request.data)
         if serializer.is_valid():
             user = serializer.save()
             refresh = RefreshToken.for_user(user)
@@ -30,10 +31,7 @@ class UserViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer
 
 
-
     def get_permissions(self):
-        if self.action == 'create':
-            return [PermissionError('You are not allowed to create a new user.')]
-        if self.action == ['list']:
+        if self.action in ['list','create']:
             return [permissions.IsAdminUser()]
-        return [permissions.IsAuthenticated()]
+        return super().get_permissions()

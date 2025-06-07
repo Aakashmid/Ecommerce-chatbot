@@ -14,6 +14,7 @@ class ProductImagesSerializer(serializers.ModelSerializer):
 
 class ProductSerializer(serializers.ModelSerializer):
     # images = ProductImagesSerializer(many=True, read_only=True)
+    is_in_stock = serializers.SerializerMethodField(read_only=True)
     category = CategorySerializer(read_only=True)
     category_id = serializers.PrimaryKeyRelatedField(
         queryset=Category.objects.all(),
@@ -23,4 +24,8 @@ class ProductSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Product
-        fields = ['id', 'name', 'description', 'price', 'category', 'category_id', 'stock', 'is_in_stock', 'created_at', 'image','addition_images', 'discount_price', 'is_featured', 'slug']
+        fields = ['id', 'name', 'description', 'price', 'category', 'category_id', 'stock', 'is_in_stock', 'created_at', 'image','additional_images', 'discount_price', 'is_featured', 'slug']
+
+
+    def get_is_in_stock(self, obj: Product) -> bool:
+        return obj.stock > 0

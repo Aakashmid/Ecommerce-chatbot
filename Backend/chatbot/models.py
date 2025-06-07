@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth import get_user_model
+import secrets
 
 User = get_user_model()
 
@@ -27,6 +28,10 @@ class ChatbotSession(models.Model):
     
     def __str__(self):
         return f"Session {self.session_id} - {'Guest' if not self.user else self.user.email}"
+    
+    def save(self, force_insert = ..., force_update = ..., using = ..., update_fields = ...):
+        if not self.session_id:
+            self.session_id =  secrets.token_urlsafe(32)
     
     def end_session(self):
         """End the current session"""

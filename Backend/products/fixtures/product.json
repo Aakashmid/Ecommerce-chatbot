@@ -1,0 +1,1028 @@
+[
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "name": "iPhone 15 Pro Max",
+            "slug": "iphone-15-pro-max",
+            "description": "Latest iPhone with A17 Pro chip, titanium design, and advanced camera system",
+            "category": 6,
+            "price": "1199.99",
+            "discount_price": "1099.99",
+            "stock": 25,
+            "image": "products/iphone-15-pro-max.jpg",
+            "sku": "APPL-IP15PM-001",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-01-15T10:00:00Z",
+            "updated_at": "2024-01-15T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "name": "Samsung Galaxy S24 Ultra",
+            "slug": "samsung-galaxy-s24-ultra",
+            "description": "Premium Android smartphone with S Pen, 200MP camera, and AI features",
+            "category": 6,
+            "price": "1299.99",
+            "discount_price": null,
+            "stock": 18,
+            "image": "products/galaxy-s24-ultra.jpg",
+            "sku": "SAMS-GS24U-002",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-01-16T10:00:00Z",
+            "updated_at": "2024-01-16T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "name": "Google Pixel 8 Pro",
+            "slug": "google-pixel-8-pro",
+            "description": "AI-powered smartphone with exceptional camera and pure Android experience",
+            "category": 6,
+            "price": "999.99",
+            "discount_price": "899.99",
+            "stock": 32,
+            "image": "products/pixel-8-pro.jpg",
+            "sku": "GOOG-PX8P-003",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-17T10:00:00Z",
+            "updated_at": "2024-01-17T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "name": "OnePlus 12",
+            "slug": "oneplus-12",
+            "description": "Flagship killer with Snapdragon 8 Gen 3 and ultra-fast charging",
+            "category": 6,
+            "price": "799.99",
+            "discount_price": null,
+            "stock": 45,
+            "image": "products/oneplus-12.jpg",
+            "sku": "ONEP-OP12-004",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-18T10:00:00Z",
+            "updated_at": "2024-01-18T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "name": "Xiaomi 14 Ultra",
+            "slug": "xiaomi-14-ultra",
+            "description": "Photography-focused smartphone with Leica cameras and premium build",
+            "category": 6,
+            "price": "899.99",
+            "discount_price": "799.99",
+            "stock": 38,
+            "image": "products/xiaomi-14-ultra.jpg",
+            "sku": "XIAO-14U-005",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-19T10:00:00Z",
+            "updated_at": "2024-01-19T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "name": "MacBook Pro 16-inch M3",
+            "slug": "macbook-pro-16-m3",
+            "description": "Professional laptop with M3 chip, Liquid Retina XDR display, and all-day battery",
+            "category": 7,
+            "price": "2499.99",
+            "discount_price": "2299.99",
+            "stock": 12,
+            "image": "products/macbook-pro-16-m3.jpg",
+            "sku": "APPL-MBP16M3-006",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-01-20T10:00:00Z",
+            "updated_at": "2024-01-20T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+            "name": "Dell XPS 13 Plus",
+            "slug": "dell-xps-13-plus",
+            "description": "Ultra-portable laptop with 13th Gen Intel Core and stunning OLED display",
+            "category": 7,
+            "price": "1399.99",
+            "discount_price": null,
+            "stock": 28,
+            "image": "products/dell-xps-13-plus.jpg",
+            "sku": "DELL-XPS13P-007",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-21T10:00:00Z",
+            "updated_at": "2024-01-21T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "name": "HP Spectre x360 14",
+            "slug": "hp-spectre-x360-14",
+            "description": "2-in-1 convertible laptop with premium design and long battery life",
+            "category": 7,
+            "price": "1199.99",
+            "discount_price": "1099.99",
+            "stock": 22,
+            "image": "products/hp-spectre-x360-14.jpg",
+            "sku": "HP-SPX36014-008",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-22T10:00:00Z",
+            "updated_at": "2024-01-22T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "name": "ASUS ROG Strix G16",
+            "slug": "asus-rog-strix-g16",
+            "description": "Gaming laptop with RTX 4070, Intel Core i7, and RGB keyboard",
+            "category": 7,
+            "price": "1799.99",
+            "discount_price": null,
+            "stock": 15,
+            "image": "products/asus-rog-strix-g16.jpg",
+            "sku": "ASUS-ROGSG16-009",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-01-23T10:00:00Z",
+            "updated_at": "2024-01-23T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "name": "Lenovo ThinkPad X1 Carbon",
+            "slug": "lenovo-thinkpad-x1-carbon",
+            "description": "Business laptop with legendary ThinkPad reliability and performance",
+            "category": 7,
+            "price": "1699.99",
+            "discount_price": "1499.99",
+            "stock": 19,
+            "image": "products/thinkpad-x1-carbon.jpg",
+            "sku": "LENO-TPX1C-010",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-24T10:00:00Z",
+            "updated_at": "2024-01-24T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "name": "Sony WH-1000XM5",
+            "slug": "sony-wh-1000xm5",
+            "description": "Industry-leading noise canceling wireless headphones with premium sound",
+            "category": 8,
+            "price": "399.99",
+            "discount_price": "349.99",
+            "stock": 67,
+            "image": "products/sony-wh-1000xm5.jpg",
+            "sku": "SONY-WH1000XM5-011",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-01-25T10:00:00Z",
+            "updated_at": "2024-01-25T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "name": "Apple AirPods Pro 2nd Gen",
+            "slug": "apple-airpods-pro-2nd-gen",
+            "description": "Wireless earbuds with active noise cancellation and spatial audio",
+            "category": 8,
+            "price": "249.99",
+            "discount_price": null,
+            "stock": 89,
+            "image": "products/airpods-pro-2nd-gen.jpg",
+            "sku": "APPL-APP2G-012",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-26T10:00:00Z",
+            "updated_at": "2024-01-26T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "name": "Bose QuietComfort Ultra",
+            "slug": "bose-quietcomfort-ultra",
+            "description": "Premium wireless headphones with world-class noise cancellation",
+            "category": 8,
+            "price": "429.99",
+            "discount_price": "399.99",
+            "stock": 34,
+            "image": "products/bose-qc-ultra.jpg",
+            "sku": "BOSE-QCU-013",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-27T10:00:00Z",
+            "updated_at": "2024-01-27T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "name": "JBL Charge 5",
+            "slug": "jbl-charge-5",
+            "description": "Portable Bluetooth speaker with powerful bass and waterproof design",
+            "category": 8,
+            "price": "179.99",
+            "discount_price": null,
+            "stock": 56,
+            "image": "products/jbl-charge-5.jpg",
+            "sku": "JBL-CHG5-014",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-28T10:00:00Z",
+            "updated_at": "2024-01-28T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "name": "Sennheiser HD 660S2",
+            "slug": "sennheiser-hd-660s2",
+            "description": "Open-back audiophile headphones with exceptional sound quality",
+            "category": 8,
+            "price": "599.99",
+            "discount_price": "549.99",
+            "stock": 23,
+            "image": "products/sennheiser-hd-660s2.jpg",
+            "sku": "SENH-HD660S2-015",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-29T10:00:00Z",
+            "updated_at": "2024-01-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+            "name": "Levi's 501 Original Jeans",
+            "slug": "levis-501-original-jeans",
+            "description": "Classic straight-leg jeans with authentic fit and timeless style",
+            "category": 9,
+            "price": "89.99",
+            "discount_price": "69.99",
+            "stock": 78,
+            "image": "products/levis-501-jeans.jpg",
+            "sku": "LEVI-501OJ-016",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-30T10:00:00Z",
+            "updated_at": "2024-01-30T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 17,
+        "fields": {
+            "name": "Nike Dri-FIT T-Shirt",
+            "slug": "nike-dri-fit-t-shirt",
+            "description": "Moisture-wicking athletic t-shirt for comfort during workouts",
+            "category": 9,
+            "price": "29.99",
+            "discount_price": null,
+            "stock": 125,
+            "image": "products/nike-dri-fit-tshirt.jpg",
+            "sku": "NIKE-DFIT-017",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-01-31T10:00:00Z",
+            "updated_at": "2024-01-31T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 18,
+        "fields": {
+            "name": "Ralph Lauren Polo Shirt",
+            "slug": "ralph-lauren-polo-shirt",
+            "description": "Classic polo shirt with iconic pony logo and premium cotton fabric",
+            "category": 9,
+            "price": "89.99",
+            "discount_price": null,
+            "stock": 43,
+            "image": "products/ralph-lauren-polo.jpg",
+            "sku": "RL-POLO-018",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-01T10:00:00Z",
+            "updated_at": "2024-02-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 19,
+        "fields": {
+            "name": "Adidas Hoodie",
+            "slug": "adidas-hoodie",
+            "description": "Comfortable fleece hoodie with classic 3-stripes design",
+            "category": 9,
+            "price": "79.99",
+            "discount_price": "59.99",
+            "stock": 67,
+            "image": "products/adidas-hoodie.jpg",
+            "sku": "ADID-HOOD-019",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-02T10:00:00Z",
+            "updated_at": "2024-02-02T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 20,
+        "fields": {
+            "name": "Tommy Hilfiger Chinos",
+            "slug": "tommy-hilfiger-chinos",
+            "description": "Slim-fit chino pants with classic styling and comfortable stretch",
+            "category": 9,
+            "price": "99.99",
+            "discount_price": null,
+            "stock": 52,
+            "image": "products/tommy-hilfiger-chinos.jpg",
+            "sku": "TH-CHINO-020",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-03T10:00:00Z",
+            "updated_at": "2024-02-03T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 21,
+        "fields": {
+            "name": "Zara Floral Dress",
+            "slug": "zara-floral-dress",
+            "description": "Elegant midi dress with floral print perfect for any occasion",
+            "category": 10,
+            "price": "59.99",
+            "discount_price": "45.99",
+            "stock": 34,
+            "image": "products/zara-floral-dress.jpg",
+            "sku": "ZARA-FLDR-021",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-02-04T10:00:00Z",
+            "updated_at": "2024-02-04T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 22,
+        "fields": {
+            "name": "H&M Blazer",
+            "slug": "hm-blazer",
+            "description": "Professional blazer with tailored fit for office and formal occasions",
+            "category": 10,
+            "price": "79.99",
+            "discount_price": null,
+            "stock": 28,
+            "image": "products/hm-blazer.jpg",
+            "sku": "HM-BLZR-022",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-05T10:00:00Z",
+            "updated_at": "2024-02-05T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 23,
+        "fields": {
+            "name": "Forever 21 Crop Top",
+            "slug": "forever-21-crop-top",
+            "description": "Trendy crop top with modern fit and stylish design",
+            "category": 10,
+            "price": "24.99",
+            "discount_price": "19.99",
+            "stock": 87,
+            "image": "products/forever21-crop-top.jpg",
+            "sku": "F21-CROP-023",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-06T10:00:00Z",
+            "updated_at": "2024-02-06T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 24,
+        "fields": {
+            "name": "Mango Leather Jacket",
+            "slug": "mango-leather-jacket",
+            "description": "Premium leather jacket with modern cut and luxurious finish",
+            "category": 10,
+            "price": "199.99",
+            "discount_price": "159.99",
+            "stock": 16,
+            "image": "products/mango-leather-jacket.jpg",
+            "sku": "MANG-LEATH-024",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-02-07T10:00:00Z",
+            "updated_at": "2024-02-07T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 25,
+        "fields": {
+            "name": "Nike Air Max 270",
+            "slug": "nike-air-max-270",
+            "description": "Lifestyle sneakers with Max Air cushioning and modern design",
+            "category": 11,
+            "price": "149.99",
+            "discount_price": null,
+            "stock": 45,
+            "image": "products/nike-air-max-270.jpg",
+            "sku": "NIKE-AM270-025",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-02-08T10:00:00Z",
+            "updated_at": "2024-02-08T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 26,
+        "fields": {
+            "name": "Adidas Ultraboost 22",
+            "slug": "adidas-ultraboost-22",
+            "description": "Premium running shoes with Boost cushioning and Primeknit upper",
+            "category": 11,
+            "price": "189.99",
+            "discount_price": "169.99",
+            "stock": 38,
+            "image": "products/adidas-ultraboost-22.jpg",
+            "sku": "ADID-UB22-026",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-09T10:00:00Z",
+            "updated_at": "2024-02-09T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 27,
+        "fields": {
+            "name": "Converse Chuck Taylor All Star",
+            "slug": "converse-chuck-taylor-all-star",
+            "description": "Classic canvas sneakers with timeless design and versatile style",
+            "category": 11,
+            "price": "59.99",
+            "discount_price": null,
+            "stock": 92,
+            "image": "products/converse-chuck-taylor.jpg",
+            "sku": "CONV-CTAS-027",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-10T10:00:00Z",
+            "updated_at": "2024-02-10T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 28,
+        "fields": {
+            "name": "Dr. Martens 1460 Boots",
+            "slug": "dr-martens-1460-boots",
+            "description": "Iconic leather boots with air-cushioned sole and durable construction",
+            "category": 11,
+            "price": "169.99",
+            "discount_price": "149.99",
+            "stock": 27,
+            "image": "products/dr-martens-1460.jpg",
+            "sku": "DRM-1460-028",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-11T10:00:00Z",
+            "updated_at": "2024-02-11T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 29,
+        "fields": {
+            "name": "IKEA MALM Bed Frame",
+            "slug": "ikea-malm-bed-frame",
+            "description": "Modern bed frame with clean lines and under-bed storage option",
+            "category": 12,
+            "price": "199.99",
+            "discount_price": null,
+            "stock": 15,
+            "image": "products/ikea-malm-bed.jpg",
+            "sku": "IKEA-MALM-029",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-12T10:00:00Z",
+            "updated_at": "2024-02-12T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 30,
+        "fields": {
+            "name": "West Elm Mid-Century Sofa",
+            "slug": "west-elm-mid-century-sofa",
+            "description": "Stylish 3-seater sofa with mid-century modern design and premium upholstery",
+            "category": 12,
+            "price": "1299.99",
+            "discount_price": "1099.99",
+            "stock": 8,
+            "image": "products/west-elm-sofa.jpg",
+            "sku": "WE-MCSOFA-030",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-02-13T10:00:00Z",
+            "updated_at": "2024-02-13T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 31,
+        "fields": {
+            "name": "Herman Miller Aeron Chair",
+            "slug": "herman-miller-aeron-chair",
+            "description": "Ergonomic office chair with advanced PostureFit SL support",
+            "category": 12,
+            "price": "1395.99",
+            "discount_price": null,
+            "stock": 12,
+            "image": "products/herman-miller-aeron.jpg",
+            "sku": "HM-AERON-031",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-02-14T10:00:00Z",
+            "updated_at": "2024-02-14T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 32,
+        "fields": {
+            "name": "CB2 Dining Table",
+            "slug": "cb2-dining-table",
+            "description": "Modern dining table with walnut finish and sleek metal legs",
+            "category": 12,
+            "price": "899.99",
+            "discount_price": "799.99",
+            "stock": 6,
+            "image": "products/cb2-dining-table.jpg",
+            "sku": "CB2-DTABLE-032",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-15T10:00:00Z",
+            "updated_at": "2024-02-15T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 33,
+        "fields": {
+            "name": "KitchenAid Stand Mixer",
+            "slug": "kitchenaid-stand-mixer",
+            "description": "Professional-grade stand mixer with 5-quart bowl and multiple attachments",
+            "category": 13,
+            "price": "379.99",
+            "discount_price": "329.99",
+            "stock": 23,
+            "image": "products/kitchenaid-mixer.jpg",
+            "sku": "KA-MIXER-033",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-02-16T10:00:00Z",
+            "updated_at": "2024-02-16T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 34,
+        "fields": {
+            "name": "Instant Pot Duo 7-in-1",
+            "slug": "instant-pot-duo-7-in-1",
+            "description": "Multi-functional pressure cooker with 7 cooking functions",
+            "category": 13,
+            "price": "99.99",
+            "discount_price": "79.99",
+            "stock": 67,
+            "image": "products/instant-pot-duo.jpg",
+            "sku": "IP-DUO7-034",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-17T10:00:00Z",
+            "updated_at": "2024-02-17T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 35,
+        "fields": {
+            "name": "Ninja Blender Pro",
+            "slug": "ninja-blender-pro",
+            "description": "High-performance blender with Total Crushing technology",
+            "category": 13,
+            "price": "149.99",
+            "discount_price": null,
+            "stock": 34,
+            "image": "products/ninja-blender-pro.jpg",
+            "sku": "NINJA-BLPRO-035",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-18T10:00:00Z",
+            "updated_at": "2024-02-18T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 36,
+        "fields": {
+            "name": "All-Clad Stainless Steel Cookware Set",
+            "slug": "all-clad-cookware-set",
+            "description": "Professional-grade 10-piece cookware set with tri-ply construction",
+            "category": 13,
+            "price": "699.99",
+            "discount_price": "599.99",
+            "stock": 18,
+            "image": "products/all-clad-cookware.jpg",
+            "sku": "AC-COOK10-036",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-19T10:00:00Z",
+            "updated_at": "2024-02-19T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 37,
+        "fields": {
+            "name": "Fiskars Pruning Shears",
+            "slug": "fiskars-pruning-shears",
+            "description": "Professional pruning shears with sharp steel blades and ergonomic grip",
+            "category": 14,
+            "price": "29.99",
+            "discount_price": null,
+            "stock": 78,
+            "image": "products/fiskars-pruning-shears.jpg",
+            "sku": "FISK-PRUNE-037",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-20T10:00:00Z",
+            "updated_at": "2024-02-20T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 38,
+        "fields": {
+            "name": "Black & Decker Hedge Trimmer",
+            "slug": "black-decker-hedge-trimmer",
+            "description": "Electric hedge trimmer with 22-inch dual-action blade",
+            "category": 14,
+            "price": "89.99",
+            "discount_price": "69.99",
+            "stock": 25,
+            "image": "products/bd-hedge-trimmer.jpg",
+            "sku": "BD-HEDGE-038",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-21T10:00:00Z",
+            "updated_at": "2024-02-21T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 39,
+        "fields": {
+            "name": "Craftsman Garden Hose",
+            "slug": "craftsman-garden-hose",
+            "description": "50-foot heavy-duty garden hose with brass fittings",
+            "category": 14,
+            "price": "49.99",
+            "discount_price": null,
+            "stock": 43,
+            "image": "products/craftsman-hose.jpg",
+            "sku": "CRAFT-HOSE50-039",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-22T10:00:00Z",
+            "updated_at": "2024-02-22T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 40,
+        "fields": {
+            "name": "Miracle-Gro Plant Food",
+            "slug": "miracle-gro-plant-food",
+            "description": "All-purpose plant food for indoor and outdoor plants",
+            "category": 14,
+            "price": "12.99",
+            "discount_price": "9.99",
+            "stock": 156,
+            "image": "products/miracle-gro-food.jpg",
+            "sku": "MG-FOOD-040",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-23T10:00:00Z",
+            "updated_at": "2024-02-23T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 41,
+        "fields": {
+            "name": "Peloton Bike+",
+            "slug": "peloton-bike-plus",
+            "description": "Premium indoor cycling bike with rotating HD touchscreen",
+            "category": 15,
+            "price": "2495.00",
+            "discount_price": "2195.00",
+            "stock": 8,
+            "image": "products/peloton-bike-plus.jpg",
+            "sku": "PELO-BIKEPLUS-041",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-02-24T10:00:00Z",
+            "updated_at": "2024-02-24T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 42,
+        "fields": {
+            "name": "Bowflex Adjustable Dumbbells",
+            "slug": "bowflex-adjustable-dumbbells",
+            "description": "Space-saving adjustable dumbbells with weight range 5-52.5 lbs",
+            "category": 15,
+            "price": "349.99",
+            "discount_price": "299.99",
+            "stock": 23,
+            "image": "products/bowflex-dumbbells.jpg",
+            "sku": "BOWF-ADJDB-042",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-25T10:00:00Z",
+            "updated_at": "2024-02-25T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 43,
+        "fields": {
+            "name": "NordicTrack Treadmill",
+            "slug": "nordictrack-treadmill",
+            "description": "Commercial-grade treadmill with iFit technology and incline training",
+            "category": 15,
+            "price": "1799.99",
+            "discount_price": null,
+            "stock": 12,
+            "image": "products/nordictrack-treadmill.jpg",
+            "sku": "NT-TREAD-043",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-02-26T10:00:00Z",
+            "updated_at": "2024-02-26T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 44,
+        "fields": {
+            "name": "Yoga Mat Premium",
+            "slug": "yoga-mat-premium",
+            "description": "Non-slip yoga mat with extra cushioning and alignment lines",
+            "category": 15,
+            "price": "79.99",
+            "discount_price": "59.99",
+            "stock": 87,
+            "image": "products/yoga-mat-premium.jpg",
+            "sku": "YOGA-MATPREM-044",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-27T10:00:00Z",
+            "updated_at": "2024-02-27T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 45,
+        "fields": {
+            "name": "REI Co-op Camping Tent",
+            "slug": "rei-coop-camping-tent",
+            "description": "4-person backpacking tent with waterproof design and easy setup",
+            "category": 16,
+            "price": "299.99",
+            "discount_price": "249.99",
+            "stock": 34,
+            "image": "products/rei-camping-tent.jpg",
+            "sku": "REI-TENT4P-045",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-02-28T10:00:00Z",
+            "updated_at": "2024-02-28T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 46,
+        "fields": {
+            "name": "Patagonia Hiking Backpack",
+            "slug": "patagonia-hiking-backpack",
+            "description": "40L hiking backpack with hydration system and multiple compartments",
+            "category": 16,
+            "price": "189.99",
+            "discount_price": null,
+            "stock": 28,
+            "image": "products/patagonia-backpack.jpg",
+            "sku": "PATA-HIKE40L-046",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-03-01T10:00:00Z",
+            "updated_at": "2024-03-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 47,
+        "fields": {
+            "name": "Coleman Portable Grill",
+            "slug": "coleman-portable-grill",
+            "description": "Compact propane grill perfect for camping and outdoor cooking",
+            "category": 16,
+            "price": "149.99",
+            "discount_price": "129.99",
+            "stock": 19,
+            "image": "products/coleman-grill.jpg",
+            "sku": "COLE-GRILL-047",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-03-02T10:00:00Z",
+            "updated_at": "2024-03-02T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 48,
+        "fields": {
+            "name": "Yeti Cooler 45",
+            "slug": "yeti-cooler-45",
+            "description": "Rotomolded cooler with superior ice retention and bear-resistant design",
+            "category": 16,
+            "price": "349.99",
+            "discount_price": null,
+            "stock": 16,
+            "image": "products/yeti-cooler-45.jpg",
+            "sku": "YETI-COOL45-048",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-03-03T10:00:00Z",
+            "updated_at": "2024-03-03T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 49,
+        "fields": {
+            "name": "Wilson Basketball",
+            "slug": "wilson-basketball",
+            "description": "Official size basketball with premium composite leather cover",
+            "category": 17,
+            "price": "29.99",
+            "discount_price": null,
+            "stock": 67,
+            "image": "products/wilson-basketball.jpg",
+            "sku": "WILS-BBALL-049",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-03-04T10:00:00Z",
+            "updated_at": "2024-03-04T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 50,
+        "fields": {
+            "name": "Nike Soccer Ball",
+            "slug": "nike-soccer-ball",
+            "description": "FIFA-approved soccer ball with aerodynamic design and durable construction",
+            "category": 17,
+            "price": "39.99",
+            "discount_price": "34.99",
+            "stock": 45,
+            "image": "products/nike-soccer-ball.jpg",
+            "sku": "NIKE-SOCCER-050",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-03-05T10:00:00Z",
+            "updated_at": "2024-03-05T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 51,
+        "fields": {
+            "name": "Spalding Basketball Hoop",
+            "slug": "spalding-basketball-hoop",
+            "description": "Adjustable basketball hoop system with tempered glass backboard",
+            "category": 17,
+            "price": "599.99",
+            "discount_price": "499.99",
+            "stock": 8,
+            "image": "products/spalding-hoop.jpg",
+            "sku": "SPAL-HOOP-051",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-03-06T10:00:00Z",
+            "updated_at": "2024-03-06T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 52,
+        "fields": {
+            "name": "Rawlings Baseball Glove",
+            "slug": "rawlings-baseball-glove",
+            "description": "Professional-grade baseball glove with premium leather construction",
+            "category": 17,
+            "price": "149.99",
+            "discount_price": null,
+            "stock": 32,
+            "image": "products/rawlings-glove.jpg",
+            "sku": "RAWL-GLOVE-052",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-03-07T10:00:00Z",
+            "updated_at": "2024-03-07T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 53,
+        "fields": {
+            "name": "The Great Gatsby",
+            "slug": "the-great-gatsby",
+            "description": "Classic American novel by F. Scott Fitzgerald - paperback edition",
+            "category": 18,
+            "price": "12.99",
+            "discount_price": "9.99",
+            "stock": 89,
+            "image": "products/great-gatsby.jpg",
+            "sku": "BOOK-GATSBY-053",
+            "is_active": true,
+            "is_featured": false,
+            "created_at": "2024-03-08T10:00:00Z",
+            "updated_at": "2024-03-08T10:00:00Z"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 54,
+        "fields": {
+            "name": "To Kill a Mockingbird",
+            "slug": "to-kill-a-mockingbird",
+            "description": "Pulitzer Prize-winning novel by Harper Lee - hardcover edition",
+            "category": 18,
+            "price": "18.99",
+            "discount_price": null,
+            "stock": 67,
+            "image": "products/mockingbird.jpg",
+            "sku": "BOOK-MOCK-054",
+            "is_active": true,
+            "is_featured": true,
+            "created_at": "2024-03-09T10:00:00Z",
+            "updated_at": "2024-03-09T10:00:00Z"
+        }
+    }
+]
