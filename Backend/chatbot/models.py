@@ -25,14 +25,15 @@ class ChatbotSession(models.Model):
     
     class Meta:
         ordering = ['-last_activity']
+
     
     def __str__(self):
         return f"Session {self.session_id} - {'Guest' if not self.user else self.user.email}"
     
-    def save(self, force_insert = ..., force_update = ..., using = ..., update_fields = ...):
+    def save(self, force_insert=False, force_update=False, using=None, update_fields=None):
         if not self.session_id:
-            self.session_id =  secrets.token_urlsafe(32)
-    
+            self.session_id = secrets.token_urlsafe(32)
+        super().save(force_insert=force_insert, force_update=force_update, using=using, update_fields=update_fields)
     def end_session(self):
         """End the current session"""
         self.status = 'completed'
@@ -42,6 +43,8 @@ class ChatbotSession(models.Model):
     @property
     def duration(self):
         """Calculate the duration of the session"""
+        if not self.started_at:
+            return None
         end_time = self.ended_at or timezone.now()
         return end_time - self.started_at
     
