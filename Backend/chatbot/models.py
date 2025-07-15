@@ -1,3 +1,4 @@
+
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth import get_user_model
@@ -25,7 +26,6 @@ class ChatbotSession(models.Model):
     
     class Meta:
         ordering = ['-last_activity']
-
     
     def __str__(self):
         return f"Session {self.session_id} - {'Guest' if not self.user else self.user.email}"

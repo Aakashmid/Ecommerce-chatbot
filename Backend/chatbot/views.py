@@ -32,7 +32,6 @@ class ChatbotSessionViewSet(viewsets.ModelViewSet):
     ModelViewSet for managing chatbot sessions.
     Provides full CRUD operations for chat sessions.
     """
-
     serializer_class = ChatbotSessionSerializer
     permission_classes = [IsAuthenticated]
     lookup_field = 'session_id'
@@ -48,7 +47,6 @@ class ChatMessageView(APIView):
     """
     API view for chat messages with GET (list) and POST methods
     """
-
     permission_classes = [IsAuthenticated]
 
     def get(self, request, session_id):

@@ -51,6 +51,8 @@ class Product(models.Model):
         return self.name
 
 
+
+#  for multiple images of a product 
 class ProductImage(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE,related_name='additional_images')
     image = models.ImageField(upload_to='products/additional/')
