@@ -15,15 +15,7 @@ from products.serializers import ProductSerializer
 from .serializers import ChatbotSessionSerializer, ChatMessageSerializer, ChatMessageCreateSerializer
 
 
-# Setup model config
-endpoint = config('AI_ENDPOINT')
-model = "openai/gpt-4.1"
-token = config("GITHUB_TOKEN")
 
-client = ChatCompletionsClient(
-    endpoint=endpoint,
-    credential=AzureKeyCredential(token),
-)
 
 
 
